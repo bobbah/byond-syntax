@@ -1,0 +1,26 @@
+{
+    "name": "byond-syntax",
+    "displayName": "byond-syntax",
+    "description": "Adds improved syntax highlighting support for the DM language",
+    "version": "0.0.1",
+    "publisher": "bobbahbrown",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dm",
+            "aliases": ["DM (BYOND Code)", "dm"],
+            "extensions": [".dm",".dme",".dmm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dm",
+            "scopeName": "source.dm",
+            "path": "./syntaxes/dm.tmLanguage.json"
+        }]
+    }
+}
