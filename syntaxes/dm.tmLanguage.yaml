@@ -386,7 +386,7 @@ repository:
     patterns:
       - begin: "(?<!\\\\)\\["
         end: "\\]"
-        name: string.interpolated.dm
+        name: meta.interpolation.dm
         patterns:
           - include: "$self"
   string_escaped_char:

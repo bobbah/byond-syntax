@@ -614,7 +614,7 @@
         {
           "begin": "(?<!\\\\)\\[",
           "end": "\\]",
-          "name": "string.interpolated.dm",
+          "name": "meta.interpolation.dm",
           "patterns": [
             {
               "include": "$self"
